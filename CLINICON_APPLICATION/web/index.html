@@ -1,0 +1,210 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Clinicon Support</title>
+		<script src="https://smtpjs.com/v3/smtp.js"></script>
+		<script type="text/javascript">
+			function sendEmail(){
+				var mailSubject = document.getElementById("subject").value
+				var mailBody = document.getElementById("message").value
+				console.log(mailSubject)
+				console.log(mailBody)
+				Email.send({
+					//Host : "smtp.gmail.com",
+    				//Username : "c.medineers@gmail.com",
+    				//Password : "sih2019_medi",
+					SecureToken: "a068ddce-6231-4e6a-a779-8e846cf32025",
+					To: 'abhishekpughazh@gmail.com',
+					From: "abhishek4074797@gmail.com",					
+					Subject : mailSubject,
+					Body : mailBody,
+				})
+					.then(function (message){
+						alert("We have received your query. Thanks")
+					});
+				
+			}
+		
+
+		</script>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="#top">Intro</a></li>
+					<li><a href="#work">Capabilities</a></li>
+					<li><a href="#portfolio">Working</a></li>
+					<li><a href="#contact">Get In Touch</a></li>
+				</ul>
+			</nav>
+
+		<!-- Home -->
+			<article id="top" class="wrapper style1">
+				<div class="container">
+					<div class="row">
+						<div class="col-4 col-5-large col-12-medium">
+							<span class="image fit"><img src="images/language-learning.png" alt="" /></span>
+						</div>
+						<div class="col-8 col-7-large col-12-medium">
+							<header>
+								<h1>Hi, I'm<strong> Clinicon</strong></h1>
+							</header>
+							<p>I'm assuming that you're here to know more about how I work. <strong>Allow me to help you.</strong></p>
+							<a href="#work" class="button large scrolly">Know More</a>
+						</div>
+					</div>
+				</div>
+			</article>
+
+		<!-- Work -->
+			<article id="work" class="wrapper style2">
+				<div class="container">
+					<header>
+						<h2>Here's what I'm Capable Of</h2>
+						<p>Let Distance Never Be A Hurdle To Your Health & Well-Being</p>
+					</header>
+					<div class="row aln-center">
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="icon featured fa-comments"></span>
+								<h3>Language-Independent Operation</h3>
+								<p>Clinicon can work & communicate in your native language. The entire process is automated, reducing the need for human interaction</p>
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="icon solid featured fa-camera-retro"></span>
+								<h3>Large-Scale Medical Data Analysis</h3>
+								<p>The Wide-Spread network of the Clinicon devices placed around the country, would help us spot new diseases the moment they pop up</p>
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="icon featured fa-thumbs-up"></span>
+								<h3>Minimised Time & cost Of Diagnosis</h3>
+								<p>You never have to travel long-distances and pay huge bucks to get a simple health checkup done.<br> Clinicon has your back!</p>
+							</section>
+						</div>
+					</div>
+					<footer>
+						<p>To Know How I Work & More</p>
+						<a href="#portfolio" class="button large scrolly">Scroll Below</a>
+					</footer>
+				</div>
+			</article>
+
+		<!-- Portfolio -->
+			<article id="portfolio" class="wrapper style3">
+				<div class="container">
+					<header>
+						<h2>Short Videos To Guide You</h2>
+						<p>Visit this page periodically to know any improvement made to the device and to know how it works.</p>
+					</header>
+					<div class="row">
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="covid/player.html" class="image featured"><img src="images/virus.png" alt="" /></a>
+								<h3><a href="covid/player.html">THE COVID ALERT</a></h3>
+								<p>Click this to know if you have the symptoms.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/engineering.png" alt="" /></a>
+								<h3><a href="#">THE PROCESS OF DIAGNOSIS</a></h3>
+								<p>Are You Confused? This will help.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/video-calling.png" alt="" /></a>
+								<h3><a href="#">TALK TO A DOCTOR</a></h3>
+								<p>Know how you can talk with a doctor real-time</p>
+							</article>
+						</div>
+					</div>
+					<footer>
+						<p>You need us to improve something?</p>
+						<a href="#contact" class="button large scrolly">Talk To Us</a>
+					</footer>
+				</div>
+			</article>
+
+		<!-- Contact -->
+			<article id="contact" class="wrapper style4">
+				<div class="container medium">
+					<header>
+						<h2>Talk To Us</h2>
+						<p>Help Us Improve Your Experience</p>
+					</header>
+					<div class="row">
+						<div class="col-12">
+							<form method="post" action="#">
+								<div class="row">
+									<div class="col-6 col-12-small">
+										<input type="text" name="name" id="name" placeholder="Name" />
+									</div>
+									<div class="col-6 col-12-small">
+										<input type="text" name="email" id="email" placeholder="Email" />
+									</div>
+									<div class="col-12">
+										<input type="text" name="subject" id="subject" placeholder="Subject" />
+									</div>
+									<div class="col-12">
+										<textarea name="message" id="message" placeholder="Message"></textarea>
+									</div>
+									<div class="col-12">
+											<input type="button" onclick=sendEmail() value="Send Message"/>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="col-12">
+							<hr />
+							<h3>Find us on ...</h3>
+							<ul class="social">
+								<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+								<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
+								<li><a href="#" class="icon brands fa-google-plus"><span class="label">Google+</span></a></li>
+								<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+								<!--
+								<li><a href="#" class="icon solid fa-rss"><span>RSS</span></a></li>
+								<li><a href="#" class="icon brands fa-instagram"><span>Instagram</span></a></li>
+								<li><a href="#" class="icon brands fa-foursquare"><span>Foursquare</span></a></li>
+								<li><a href="#" class="icon brands fa-skype"><span>Skype</span></a></li>
+								<li><a href="#" class="icon brands fa-soundcloud"><span>Soundcloud</span></a></li>
+								<li><a href="#" class="icon brands fa-youtube"><span>YouTube</span></a></li>
+								<li><a href="#" class="icon brands fa-blogger"><span>Blogger</span></a></li>
+								<li><a href="#" class="icon brands fa-flickr"><span>Flickr</span></a></li>
+								<li><a href="#" class="icon brands fa-vimeo"><span>Vimeo</span></a></li>
+								-->
+							</ul>
+							<hr />
+						</div>
+					</div>
+					<footer>
+						<ul id="copyright">
+							<li>Design: SQUADRON1</li>
+						</ul>
+					</footer>
+				</div>
+			</article>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
