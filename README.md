@@ -7,8 +7,8 @@ A device which will help the people who literally have no idea over the diseases
 ### HomePage - English
 ![HomePage-English](https://github.com/iSriBalaji/Clinicon-Medical-Assistant/blob/main/c.png)
 
-### Tamil
+### HomePage - Tamil
 ![HomePage-Tamil](https://github.com/iSriBalaji/Clinicon-Medical-Assistant/blob/main/d.png)
 
-### Hindi
+### HomePage - Hindi
 ![HomePage-Hindi](https://github.com/iSriBalaji/Clinicon-Medical-Assistant/blob/main/e.png)
