@@ -1,5 +1,5 @@
 #Developed by 
-'''SQUARDRON!'''
+'''Sri Balaji Muruganandam & Abhishek Pughazhendhi'''
 import os
 import time
 import requests
