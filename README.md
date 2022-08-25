@@ -16,4 +16,5 @@ This project is developed for the Finals of Smart India Hackathon 2020
 ![HomePage-Hindi](https://github.com/iSriBalaji/Clinicon-Medical-Assistant/blob/main/e.png)
 
 #### Initial Prototype - CLI Version
+#### Click the youtube icon below to check the Command Line version of Clinicon
 [![Command Line Version](https://i.imgur.com/vm8RTH8.png)](https://www.youtube.com/watch?v=pA6wOhfTQgU)
