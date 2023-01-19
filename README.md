@@ -3,6 +3,10 @@ A device which will help the people who literally have no idea over the diseases
 
 This project is developed for the Finals of Smart India Hackathon 2020
 
+#### Full Stack Desktop Application - GUI Version
+#### Click the youtube icon below to check the Command Line version of Clinicon
+[![Device Software](https://i.imgur.com/vm8RTH8.png)](https://youtu.be/C_G9A6bjQDI)
+
 ## Select the Language
 ![Language](https://github.com/iSriBalaji/Clinicon-Medical-Assistant/blob/main/b.png)
 
