@@ -1,0 +1,4 @@
+import pymongo
+from pymongo import MongoClient
+cluster=MongoClient("mongodb+srv://iSriBalaji:lenovog500s@cluster0-nlgba.mongodb.net/test?retryWrites=true&w=majority")
+db=cluster["Mypython"]

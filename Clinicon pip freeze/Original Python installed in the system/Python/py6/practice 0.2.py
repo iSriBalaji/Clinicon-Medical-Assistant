@@ -1,0 +1,6 @@
+name=input("enter name")
+adhar_no=input("enter adhar no")
+adress=input("enter adress")
+print(name,end="-")
+print(adhar_no)
+print(adress)
